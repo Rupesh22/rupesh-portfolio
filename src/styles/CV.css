@@ -1,0 +1,153 @@
+.cv{
+    display: flex;
+    justify-content: center;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+}
+
+.cv_container{
+    min-height: 100vh;
+    width: 720px;
+}
+
+.cv_header{
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+    padding: 20px 20px 0px 20px;
+    width: -webkit-fill-available;
+    color: #000;
+    border-bottom: 2px solid black;
+}
+
+.profile_img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+
+.header_svg{
+    fill: #000;
+    height: 18px;
+    width: 18px;
+}
+
+.svg_box{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.svg_box:hover{
+    background-color: rgba(151, 156, 164, 0.3);
+    cursor: pointer;
+}
+
+.profile_links{
+    padding-right: 8px;
+    font-size: 14px;
+}
+
+.skills_container{
+    padding: 16px;
+}
+
+/* .skills_header{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+} */
+
+
+.skill_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_card{
+    background-color: rgba(151, 156, 164, 0.9);
+    border-radius: 6px;
+    padding: 4px 12px;
+    margin: 3px 4px;
+    color: white;
+}
+
+.experience_container, .tech_skills_container, .edu_container, .lang_container, .interests_container{
+    padding: 0px 16px 16px 16px;
+}
+
+.exp_container{
+    padding: 4px 6px;
+    margin: 4px 0px;
+}
+
+.exp_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.exp_company{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.from_to_location_contianer{
+    display: flex;
+    color: #00c8aa;
+    justify-content: space-between;
+    padding: 3px 0px;
+}
+
+.exp_role_container{
+    margin-left: 24px;
+}
+
+.exp_roles{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 0px;
+}
+
+.exp_role, .tech_skill{
+    padding: 1px 0px;
+}
+
+.exp_role::before, .tech_skill::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #00c8aa; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.tech_skill_container{
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.tech_skill_header, .exp_header, .skills_header, .edu_header, .lang_header, .interests_header{
+    border-bottom: 3px solid gray;
+    width: fit-content;
+}
+
+.edu_box, .lang_box, .interests_box, .skill_box{
+    padding: 4px 6px;
+    margin: 4px 0px;
+}
+
+.lang_box, .interests_box{
+    display: flex;
+}
+
+.lang_card, .interest_card{
+    background-color: rgba(151, 156, 164, 0.9);
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin: 3px 4px;
+    color: white;
+}
