@@ -1,5 +1,5 @@
 const Skills = () => {
-    const skills= ['Java', 'Selenium', 'TestNG', 'MySQL', 'Functional Testing', 'API Testing', 'Performance Testing', 'Git', 'Postman', 'JMeter', 'Redis', 'Linux', 'Agile', 'JS', 'HTML', 'CSS', 'Cucumber', 'Gherkin']
+    const skills= ['Java', 'Selenium', 'TestNG', 'MySQL', 'Functional Testing', 'API Testing', 'Git', 'Postman', 'JMeter', 'Redis', 'Linux', 'Agile', 'Performance Testing', 'Javascript/Typescript', 'HTML', 'CSS', 'Cucumber', 'Gherkin', 'MongoDB']
     return(
         <div className="skills_container">
             <h2 className="skills_header">Skills</h2>

@@ -52,7 +52,7 @@
 }
 
 .skills_container{
-    padding: 16px;
+    padding: 16px 16px 8px 16px;
 }
 
 /* .skills_header{
@@ -70,13 +70,13 @@
 .skill_card{
     background-color: rgba(151, 156, 164, 0.9);
     border-radius: 6px;
-    padding: 4px 12px;
+    padding: 4px 8px;
     margin: 3px 4px;
     color: white;
 }
 
-.experience_container, .tech_skills_container, .edu_container, .lang_container, .interests_container{
-    padding: 0px 16px 16px 16px;
+.experience_container, .tech_skills_container, .edu_container, .lang_container, .interests_container, .cert_container{
+    padding: 0px 16px 8px 16px;
 }
 
 .exp_container{
@@ -130,12 +130,12 @@
     margin-top: 4px;
 }
 
-.tech_skill_header, .exp_header, .skills_header, .edu_header, .lang_header, .interests_header{
+.tech_skill_header, .exp_header, .skills_header, .edu_header, .lang_header, .interests_header, .cert_header{
     border-bottom: 3px solid gray;
     width: fit-content;
 }
 
-.edu_box, .lang_box, .interests_box, .skill_box{
+.edu_box, .lang_box, .interests_box, .skill_box, .cert_box{
     padding: 4px 6px;
     margin: 4px 0px;
 }
@@ -150,4 +150,9 @@
     padding: 4px 10px;
     margin: 3px 4px;
     color: white;
+}
+
+.small_heading{
+    font-weight: bold;
+    font-size: 15px;
 }
