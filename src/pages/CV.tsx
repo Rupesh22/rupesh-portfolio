@@ -28,8 +28,8 @@ const CV = ({data}:{data: Data}) => {
             <main className="cv_container">
                 <div className="cv_header">
                     <div>
-                        <h1>{data.name}</h1>
-                        <h3>{data.title}</h3>
+                        <h1>Rupesh kumar</h1>
+                        <h3>Software Engineer</h3>
                     </div>
                     <Contact />
                 </div>
@@ -43,16 +43,6 @@ const CV = ({data}:{data: Data}) => {
             </main>
         </div>
     )
-}
-
-export async function getStaticProps(){
-    const res = await fetch('http://localhost:3000/api/hello')
-    const data = await res.json()
-
-    console.log(data);
-    return {
-        props: {data}
-    }
 }
 
 export default CV;
