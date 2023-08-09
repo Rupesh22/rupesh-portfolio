@@ -51,7 +51,7 @@ const Experience = () => {
         }
     ]
 
-    const getFromAndToDate = (from : Date, to: Date|undefined, isPresent: boolean) => {
+    const getFromAndToDate = (from : Date, to: Date, isPresent: boolean) => {
         const monthNames: string[] = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
         ];
