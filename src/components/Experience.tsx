@@ -5,7 +5,7 @@ const Experience = () => {
         location: string,
         isPresentCompany: boolean,
         fromDate: Date,
-        toDate?: Date,
+        toDate: Date,
         roles_responsibilities: string[]
     }
 
@@ -15,6 +15,7 @@ const Experience = () => {
             location: 'Bangalore',
             isPresentCompany: true,
             fromDate: new Date('2021-10-01'),
+            toDate: new Date(),
             roles_responsibilities: [
                 "Worked on multiple TP packages in the INOW project to support different clients",
                 "Handled Automation of Test cases using selenium webdriver with java and TestNG",
